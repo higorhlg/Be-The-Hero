@@ -1,5 +1,7 @@
-# logo here
-# Be The Hero
+<p align = "center">
+  <img src="https://github.com/higorhlg/Be-The-Hero/blob/master/frontend/src/assets/logo.svg" />
+</p>
+                                                                                             
 
 Be The Hero is an application that has the purpose of helping Animal Welfare Non-governmental organizations (NGOs). In the mobile app people can see incidents in which a NGO needs financial help and get in touch with the NGO to provide help, NGOs can use the web version of the application to register new cases.
 
