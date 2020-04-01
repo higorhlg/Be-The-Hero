@@ -3,10 +3,10 @@
 </p>
                                                                                              
 
-Be The Hero is an application that has the purpose of helping Animal Welfare Non-governmental organizations (NGOs). In the mobile app people can see incidents in which a NGO needs financial help and get in touch with the NGO to provide help, NGOs can use the web version of the application to register new cases.
+<p> Be The Hero is an application that has the purpose of helping Animal Welfare Non-governmental organizations (NGOs). In the mobile app people can see incidents in which a NGO needs financial help and get in touch with the NGO to provide help, NGOs can use the web version of the application to register new cases. </p>
 
-Use case example:
-Let's suppose a NGO who deals with animals on the street finds a dog with a broken paw. The NGO then takes the dog to it's place and register the incident to get external help from people willing to contribute with the costs.
+<p> Use case example:
+Let's suppose a NGO who deals with animals on the street finds a dog with a broken paw. The NGO then takes the dog to it's place and register the incident to get external help from people willing to contribute with the costs.</p>
 
 <h2> How it works: </h2>
 There is 2 versions of the application, each aimed at a different user, the web application and the mobile application, both feed from the server API available in the "backend" folder. 
@@ -15,17 +15,28 @@ There is 2 versions of the application, each aimed at a different user, the web 
 
 The web application's code is avaible at the folder named "frontend", this application is to be used by NGOs to announce incidents. 
 
-<!-- Front end screenshots -->
+<p>
+<img width="49%" src="https://github.com/higorhlg/Be-The-Hero/blob/master/Screenshots/web-1.png"/>
+<img width="49%" src="https://github.com/higorhlg/Be-The-Hero/blob/master/Screenshots/web-2.png"/>
+</p>
+
+<p align="center">
+  <img width="50%" src="https://github.com/higorhlg/Be-The-Hero/blob/master/Screenshots/web-3.png"/>
+</p>
 
 <h3> The Mobile Application </h3>
 
 The mobile application's code is available at the folder named "mobile", this application is to be used by anyone who is willing to help NGOs, the mobile app user can view all the cases registered by all the NGOs and choose one or more to step in and contact the organization to offer help.
 
-<!-- Mobile screenshots -->
+<p align="center">
+  <img width="45%"  src="https://github.com/higorhlg/Be-The-Hero/blob/master/Screenshots/mobile-1.png"/>
+  <img width="44.25%" src="https://github.com/higorhlg/Be-The-Hero/blob/master/Screenshots/mobile-2.png"/>
+</p>
+
 
 <h2> Technologies </h2>
 
-The webpage was built with <b>ReactJS</b>, the mobile app with <b>React Native</b> and the server with <b>NodeJS</b>. The database configured is <b>SQLite</b> and could be easily adapted to other relational databases, a SQL Query Builder named <b>Knex</b> is used to generate SQL queries.
+The webpage was built with <b>ReactJS</b>, the mobile app with <b>React Native</b> and the server with <b>NodeJS</b>. The database configured is <b>SQLite</b> and the application can be easily adapted to other relational databases, a SQL Query Builder named <b>Knex</b> is used to generate SQL queries.
 
 <h2> How to execute the project </h2>
 
@@ -67,8 +78,12 @@ yarn install
 yarn start
 ```
 
-When the web application is running, it can be seen on a browser on the URL displayed in the CLI that's running it. To run the mobile application you will deal with expo.
+When the web application is running, it can be seen on a browser on the URL displayed in the CLI that's running it. 
 
+To run the mobile application you will deal with expo, start the project normally with yarn start and acess the URL displayed on CLI to acess expo.
+
+<h3> Credits </h3>
+The project was developed during the 11th omnistack week. The Omnistack week is organized by the Rocketseat team, which are to be credited for the app idea. The project is under the MIT License.
 
 <!--
 
