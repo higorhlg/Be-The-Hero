@@ -42,13 +42,13 @@ The webpage was built with <b>ReactJS</b>, the mobile app with <b>React Native</
 
 To run the project you'll need to have installed: Git, Node.js and Yarn. 
 
-<h3> Step 1 - Clone This repository </h3> 
+<h3> Step 1 - Clone this repository </h3> 
 
 ```
 git clone https://github.com/higorhlg/BeTheHero
 ```
 
-<h3> Step 2 - Start The Server </h3>
+<h3> Step 2 - Start the server </h3>
 
 First of all you should start the server, located in the "backend" folder, to do that you must run the following lines at your terminal:
 
@@ -63,9 +63,9 @@ yarn install
 yarn start
 ```
 
-<h3> Step 3 - Run the Web and Mobile Application </h3>
+<h3> Step 3 - Run the Web/Mobile Application </h3>
 
-With the server up and running from the previous step made, you can now run the web or mobile application, respectively available in the frontend and mobile folders withing the project, you can get them running using the same terminal commands described in the previous step.
+With the server up and running from the previous step made, you can now run the web or mobile application, respectively available in the frontend and mobile folders within the project, you can get them running using the same terminal commands described in the previous step:
 
 ```
 # From the root folder of the project, go to the web or mobile application folder, for example, "frontend":
@@ -78,9 +78,7 @@ yarn install
 yarn start
 ```
 
-When the web application is running, it can be seen on a browser on the URL displayed in the CLI that's running it. 
-
-To run the mobile application you will deal with expo, start the project normally with yarn start and acess the URL displayed on CLI to acess expo.
+Both the web and mobile application will give you a URL that can be acessed through a browser to view the application, the mobile version URL will take you to a Expo page where you can choose to run the application via simulator or real smartphone. 
 
 <h3> Credits </h3>
 The project was developed during the 11th omnistack week. The Omnistack week is organized by the Rocketseat team, which are to be credited for the app idea. The project is under the MIT License.
